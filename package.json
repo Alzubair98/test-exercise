@@ -1,0 +1,22 @@
+{
+  "name": "test-exercise",
+  "version": "1.0.0",
+  "description": "the first test exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alzubair98/test-exercise.git"
+  },
+  "author": "alzubair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alzubair98/test-exercise/issues"
+  },
+  "homepage": "https://github.com/Alzubair98/test-exercise#readme",
+  "dependencies": {
+    "jest": "^28.1.2"
+  }
+}
