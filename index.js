@@ -1,11 +1,16 @@
+//Task 1
 function stringLength(string){
-    console.log(typeof(string.length));
+    if (string.length >= 1 && string.length <= 10){
+        return string.length;
+    } else{
+        return 'Error conditions are not met';
+    }
+    
 };
 
-stringLength('why')
+console.log(stringLength('aaaaaaaaaaa'))
 
-if (typeof(stringLength) === Number){
-    console.log("Test Pass");
-} else{
-    console.log('Test Falid')
-}
+
+module.exports = stringLength;
+
+/////////////////////////////////////////////
