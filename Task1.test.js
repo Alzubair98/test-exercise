@@ -14,4 +14,3 @@ test('check the length if its less than 0', ()=>{
 test('check if the length is more than 10', ()=>{
     expect(stringLength('abcdefghigklmn')).toBe('Error conditions are not met');
 });
-////////////////////////////////////////////////////

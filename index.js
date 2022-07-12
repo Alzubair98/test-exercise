@@ -8,9 +8,5 @@ function stringLength(string){
     
 };
 
-console.log(stringLength('aaaaaaaaaaa'))
-
-
 module.exports = stringLength;
 
-/////////////////////////////////////////////
